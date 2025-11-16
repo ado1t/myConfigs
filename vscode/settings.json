@@ -1,0 +1,34 @@
+{
+  "editor.lineHeight": 22,
+  "editor.fontWeight": "100",
+  "workbench.iconTheme": "vscode-great-icons",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "LXGWWenKaiMono Nerd Font",
+  "editor.codeLensFontFamily": "LXGWWenKaiMono Nerd Font",
+  "terminal.integrated.fontFamily": "LXGWWenKaiMono Nerd Font",
+  "workbench.editor.enablePreview": false,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.fontSize": 17,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.colorTheme": "WebStorm Darcula Darker Theme",
+  "editor.tokenColorCustomizations": {
+    "[WebStorm Darcula Darker Theme]": {
+      "textMateRules": [
+        {
+          "scope": ["entity.name.type.package.go", "variable.other.import.go"],
+          "settings": {
+            "foreground": "#00C62B"
+          }
+        },
+        {
+          "scope": "variable.parameter.go",
+          "settings": {
+            "foreground": "#14C9C9"
+          }
+        }
+      ]
+    }
+  }
+}
